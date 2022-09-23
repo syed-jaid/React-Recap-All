@@ -5,7 +5,7 @@ const Navbar = () => {
     const s =
         <>
             <div className="form-control">
-                <input type="text" placeholder="Search" className="input input-bordered lg:w-96 text-slate-600" />
+                <input type="text" placeholder="Search" className="input input-bordered rounded-[20px] h-[35px] lg:w-96 text-slate-600" />
             </div>
         </>;
 
@@ -34,7 +34,7 @@ const Navbar = () => {
                     </div>
                 </button>
                 <label tabIndex="0" className="btn btn-ghost btn-circle avatar">
-                    <div className="w-10 rounded-full">
+                    <div className="w-9 rounded-full">
                         <img src="https://placeimg.com/80/80/people" alt='person img' />
                     </div>
                 </label>

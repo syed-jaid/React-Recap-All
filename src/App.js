@@ -6,9 +6,11 @@ import Home from './Components/Home/Home';
 function App() {
   return (
     <div className='App-main-div'>
-      <Navbar />
-      <Home></Home>
-      <ToastContainer />
+      <div className='mx-6'>
+        <Navbar />
+        <Home></Home>
+        <ToastContainer />
+      </div>
     </div>
   );
 }

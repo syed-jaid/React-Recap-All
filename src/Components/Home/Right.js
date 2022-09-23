@@ -3,9 +3,9 @@ import { FaUserFriends } from 'react-icons/fa';
 
 const Right = () => {
     return (
-        <div>
-            <ul class="menu bg-base-100 w-56 mt-2 border-[4px] border-[#cbd5e1] rounded-xl">
-                <li className='   w-full '>
+        <div className='Right-side-part'>
+            <ul class="menu bg-base-100 w-56 mt-2 border-[3px] border-[#cbd5e1] rounded-xl">
+                <li className='w-full '>
                     <a className='mx-auto font-semibold' href='/'><FaUserFriends /> Friend List</a>
                 </li>
                 <li className='border-t-[2px] border-base-400 '>

@@ -5,6 +5,7 @@ const Center = () => {
     return (
         <div className='Home-scroll-part'>
             <AddPost />
+
         </div>
     );
 };

@@ -69,3 +69,76 @@
     background-color: #e5e7eb;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 1030px) {
+    .Home-main-div {
+        display: block;
+        position: relative;
+    }
+
+    .Home-scroll-part {
+        position: absolute;
+        left: 12%;
+    }
+
+    .left-side-part {
+        position: absolute;
+        top: 0px;
+        right: 0;
+    }
+
+    .Right-side-part {
+        position: absolute;
+        top: 160px;
+        right: 0;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .Home-scroll-part {
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .Home-scroll-part {
+        left: 7%;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .Home-scroll-part {
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .Home-scroll-part {
+        left: 2%;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .Home-scroll-part {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    .Home-scroll-part {
+        position: sticky;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-side-part {
+        display: none;
+    }
+
+    .Right-side-part {
+        display: none;
+    }
+}
