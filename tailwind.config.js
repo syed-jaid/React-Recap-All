@@ -4,7 +4,7 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   daisyui: {
-    themes: ["lofi"]
+    themes: ["light"]
   },
   plugins: [require("daisyui")],
 }
