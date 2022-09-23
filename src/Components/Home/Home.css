@@ -1,0 +1,28 @@
+.Home-main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Home-scroll-part {
+    max-width: 600px;
+}
+
+/* Right side  */
+
+.friend-bottom-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.friend-bottom-part a {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.friend-bottom-part a:hover {
+    background-color: #e5e7eb;
+    border-radius: 5px;
+}
