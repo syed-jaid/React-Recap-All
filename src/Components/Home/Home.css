@@ -8,6 +8,49 @@
     max-width: 600px;
 }
 
+/* center add post  */
+
+.Add-post-main-div {
+    width: 500px;
+    padding: 14px 12px;
+    background-color: #cbd5e1;
+    border-radius: 12px;
+}
+
+.Add-post-div {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.post-button {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 8px 13px;
+    border-radius: 20px;
+}
+
+.post-button p {
+    color: #8c95a5;
+}
+
+.add-another {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-another small {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.adding-icon {
+    font-size: 23px;
+    color: #6c7687;
+    margin-right: 8px;
+}
+
 /* Right side  */
 
 .friend-bottom-part {
