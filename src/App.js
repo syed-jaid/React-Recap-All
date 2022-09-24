@@ -6,7 +6,7 @@ import Home from './Components/Home/Home';
 function App() {
   return (
     <div className='App-main-div'>
-      <div className='mx-6'>
+      <div className='mx-2 sm:mx-6'>
         <Navbar />
         <Home></Home>
         <ToastContainer />

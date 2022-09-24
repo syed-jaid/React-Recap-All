@@ -11,9 +11,9 @@
 /* center add post  */
 
 .Add-post-main-div {
-    width: 500px;
+    max-width: 500px;
     padding: 14px 12px;
-    background-color: #cbd5e1;
+    background-color: #d0d7e1;
     border-radius: 12px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .post-button p {
-    color: #8c95a5;
+    color: #535353;
 }
 
 .add-another {
@@ -41,7 +41,7 @@
 
 .add-another small {
     font-size: 15px;
-    color: #ffffff;
+    color: #4b4b4b;
     font-weight: 600;
 }
 
@@ -52,6 +52,10 @@
 }
 
 /* Right side  */
+
+.menu {
+    box-shadow: 1px 1px 10px #cbd5e1;
+}
 
 .friend-bottom-part {
     display: flex;
@@ -141,4 +145,17 @@
     .Right-side-part {
         display: none;
     }
+}
+
+
+@media screen and (max-width: 460px) {
+    .post-button {
+        font-size: 15px;
+    }
+
+    .add-another small {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
 }

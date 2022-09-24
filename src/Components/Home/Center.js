@@ -1,11 +1,14 @@
 import React from 'react';
 import AddPost from './AddPost';
+import Post from './Post/Post';
 
 const Center = () => {
     return (
         <div className='Home-scroll-part'>
-            <AddPost />
-
+            <div>
+                <AddPost />
+                <Post></Post>
+            </div>
         </div>
     );
 };
