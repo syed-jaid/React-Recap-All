@@ -34,11 +34,11 @@ const Navbar = () => {
                         <span className="badge badge-xs badge-primary indicator-item"></span>
                     </div>
                 </button>
-                <label tabIndex="0" className="btn btn-ghost btn-circle avatar">
-                    <div className="w-9 rounded-full">
-                        <img src="https://placeimg.com/80/80/people" alt='person img' />
+                <div class="avatar">
+                    <div class="w-10 rounded-full">
+                        <img src="https://placeimg.com/192/192/people" alt='' />
                     </div>
-                </label>
+                </div>
             </div>
 
         </div>
