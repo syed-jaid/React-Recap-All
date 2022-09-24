@@ -8,7 +8,6 @@ const Center = () => {
             <div>
                 <AddPost />
                 <Post></Post>
-                <Post></Post>
             </div>
         </div>
     );
