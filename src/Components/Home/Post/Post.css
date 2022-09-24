@@ -12,3 +12,45 @@
     align-items: center;
     margin-bottom: 10px;
 }
+
+.postFooter {
+    width: 100%;
+    background-color: #d0d7e1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 12px 14px;
+}
+
+.like-comment-add {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.like-comment-add div {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.postFooter-icon {
+    font-size: 23px;
+    color: #464646;
+    margin-right: 5px;
+}
+
+.like-comment-add div:hover {
+    color: rgb(172, 172, 172);
+
+}
+
+@media screen and (max-width: 520px) {
+    .icon-text {
+        font-size: 15px;
+    }
+
+    .postFooter-icon {
+        font-size: 20px;
+    }
+}
