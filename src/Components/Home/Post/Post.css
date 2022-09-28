@@ -1,6 +1,6 @@
 .postHeader {
     max-width: 500px;
-    background-color: #d0d7e1;
+    background-color: #7abee2;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-top: 10px;
@@ -15,10 +15,11 @@
 
 .postFooter {
     width: 100%;
-    background-color: #d0d7e1;
+    background-color: #7abee2;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 12px 14px;
+    color: white;
 }
 
 .like-comment-add {
@@ -36,13 +37,13 @@
 
 .postFooter-icon {
     font-size: 23px;
-    color: #464646;
+    color: white;
     margin-right: 5px;
 }
 
 .like-comment-add div:hover {
     color: rgb(255, 255, 255);
-
+    cursor: pointer;
 }
 
 @media screen and (max-width: 520px) {

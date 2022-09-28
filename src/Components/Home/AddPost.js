@@ -8,8 +8,8 @@ const AddPost = () => {
         <div className='Add-post-main-div mt-2'>
             <div>
                 <div className='Add-post-div'>
-                    <div class="avatar online ">
-                        <div class="w-10 rounded-full">
+                    <div className="avatar online ">
+                        <div className="w-10 rounded-full">
                             <img src="https://placeimg.com/192/192/people" alt='' />
                         </div>
                     </div>

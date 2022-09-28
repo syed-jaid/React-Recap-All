@@ -13,7 +13,7 @@
 .Add-post-main-div {
     max-width: 500px;
     padding: 14px 12px;
-    background-color: #d0d7e1;
+    background-color: #7abee2;
     border-radius: 12px;
 }
 
@@ -41,13 +41,13 @@
 
 .add-another small {
     font-size: 15px;
-    color: #4b4b4b;
+    color: white;
     font-weight: 600;
 }
 
 .adding-icon {
     font-size: 23px;
-    color: #6c7687;
+    color: white;
     margin-right: 8px;
 }
 

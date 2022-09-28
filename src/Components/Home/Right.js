@@ -4,7 +4,7 @@ import { FaUserFriends } from 'react-icons/fa';
 const Right = () => {
     return (
         <div className='Right-side-part'>
-            <ul class="menu font-semibold w-56 mt-2 rounded-xl drop-shadow-2xl text-[#5b5b5b]">
+            <ul className="menu font-semibold w-56 mt-2 rounded-xl drop-shadow-2xl text-[#5b5b5b]">
                 <li className='w-full '>
                     <a className='mx-auto font-semibold' href='/'><FaUserFriends /> Friend List</a>
                 </li>
